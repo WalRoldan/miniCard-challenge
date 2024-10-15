@@ -1,0 +1,17 @@
+{
+  "name": "mini-card-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:sass": "sass src/style.scss src/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "sass": "^1.79.4"
+  }
+}

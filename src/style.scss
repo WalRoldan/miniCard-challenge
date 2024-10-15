@@ -1,0 +1,78 @@
+/* Variables */
+$primary-color: #7ab800;
+$secondary-color: #cc292b;
+$font-family: "Nunito", sans-serif;
+
+/* Global Styles */
+body {
+  font-family: $font-family;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+.card {
+  width: 162px;
+  height: 192px;
+  padding: 8px;
+  border-radius: 8px 8px 8px 8px;
+  border: 0.8px solid #dbdbdb;
+  background-color: #fff;
+  text-align: center;
+
+  &__image {
+    width: 100%;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__content {
+    text-align: center;
+    padding: 8px;
+  }
+
+  &__title {
+    font-family: "Nunito", sans-serif;
+    font-size: 12px; // Para mobile
+    font-weight: bold;
+    margin: 8px 0;
+  }
+
+  &__description {
+    font-family: "Nunito", sans-serif;
+    font-size: 12px; // Para mobile
+    color: #333;
+  }
+
+  &__button {
+    background-color: #7ab100;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    margin-top: -18%;
+    cursor: pointer;
+
+    &.selected {
+      background-color: #cc292b;
+    }
+  }
+
+  @media (min-width: 768px) {
+    width: 264px;
+    height: 264px;
+    padding: 16px;
+
+    &__title {
+      font-size: 20px; // Para desktop
+    }
+
+    &__description {
+      font-size: 18px; // Para desktop
+    }
+
+    &__button {
+      padding: 12px 24px; // Botón más grande en desktop
+    }
+  }
+}
