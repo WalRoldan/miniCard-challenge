@@ -1,4 +1,3 @@
-
 # Proyecto Mini card - Responsive
 
 Este proyecto es un componente responsivo de un banner publicitario que cambia su diseño y dimensiones dependiendo del dispositivo (desktop y mobile). El proyecto incluye botones que cambian de color al ser clickeados y se ajusta a las mejores prácticas de desarrollo como BEM, SCSS y jQuery, con una organización modular y limpia del código.
@@ -10,11 +9,11 @@ Este proyecto es un componente responsivo de un banner publicitario que cambia s
 - **JavaScript (jQuery)**: Control de eventos y manejo de interacciones (cambio de color del botón).
 - **Metodología BEM**: Para un nombramiento coherente y escalable de clases CSS.
 - **Fuente Nunito**: Fuente utilizada para cumplir con los requisitos de diseño.
-  
+
 ### Librerías
 
 - **jQuery**: Se utiliza para manejar las interacciones del DOM y simplificar el manejo de eventos.
-  
+
 ```bash
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 ```
@@ -38,10 +37,8 @@ El proyecto sigue una estructura básica y modular para facilitar la mantenibili
 1. **Responsividad del Banner**:
    - El componente cambia de diseño entre versiones desktop y mobile basado en un punto de quiebre de 768px.
    - Las dimensiones del banner se ajustan según el dispositivo.
-   
 2. **Interacción de los Botones**:
    - Al hacer clic en los botones del banner, estos alternan entre dos colores: `#7AB800` y `#CC292B`.
-   
 3. **Diseño Responsivo**:
    - Se adapta a pantallas grandes y pequeñas utilizando `media queries` en SCSS.
 
@@ -50,8 +47,8 @@ El proyecto sigue una estructura básica y modular para facilitar la mantenibili
 ### Clonar el repositorio
 
 ```bash
-git clone <URL_DE_TU_REPOSITORIO>
-cd nombre-del-proyecto
+git clone https://github.com/WalRoldan/miniCard-challenge.git
+cd miniCard-challenge
 ```
 
 ### Instalación de dependencias (opcional, si utilizas un entorno local con compilador de SCSS)
